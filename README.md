@@ -19,4 +19,12 @@ Angular bases
 
 5) start the development server :  
 
-` ng serve --open`
+` ng serve --open`  
+
+6) *optional* install Bootstrap :  
+
+`npm i bootstrap`  
+
+in the angular.json file, "architect / build / options", modify "styles" : `"styles": [  
+            "./node_modules/bootstrap/dist/css/bootstrap.css",  
+            ]`
