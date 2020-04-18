@@ -42,4 +42,5 @@ ou
 
 ### Manage dynamic data  
 
-1) String interpolation
+1) String interpolation  
+2) Property binding
