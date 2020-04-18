@@ -36,4 +36,10 @@ in the angular.json file, "architect / build / options", modify "styles" : `"sty
   
 ### Create a component  
 
-`ng generate component componentName`
+`ng generate component componentName`  
+ou  
+`ng g c componentName`  
+
+### Manage dynamic data  
+
+1) String interpolation

@@ -4,11 +4,13 @@ import { NgModule } from '@angular/core';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { FirstCompoComponent } from './first-compo/first-compo.component';
+import { DeviceComponent } from './device/device.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    FirstCompoComponent
+    FirstCompoComponent,
+    DeviceComponent
   ],
   imports: [
     BrowserModule,
