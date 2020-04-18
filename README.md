@@ -27,4 +27,13 @@ Angular bases
 
 in the angular.json file, "architect / build / options", modify "styles" : `"styles": [  
             "./node_modules/bootstrap/dist/css/bootstrap.css",  
-            ]`
+            ]`  
+
+7) rxjs compat for compatibility of observables :  
+
+`npm install rxjs-compat --save`  
+
+  
+### Create a component  
+
+`ng generate component componentName`
