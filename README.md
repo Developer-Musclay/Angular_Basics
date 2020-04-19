@@ -45,13 +45,19 @@ ou
 
 ### Manage dynamic data    -> Observe on Github via the different commit
 
-1) String interpolation  
-2) Property binding  
-3) Event binding  
-4) Two-way binding (FormsModule & ngModel)  
-5) Custom properties (@Input)  
+1) String interpolation || **{{...}}**
+2) Property binding || **constructor() + this.** 
+3) Event binding || **(click)="on...()"**
+4) Two-way binding || **FormsModule** & **ngModel** 
+5) Custom properties || **@Input**  
 
 ### Directives  
 
-1) Structural directives (*ngIf, *ngFor )  
-2) Directives by attribute (ngStyle, ngClass)
+1) Structural directives || **ngIf, ngFor**
+2) Directives by attribute || **ngStyle, ngClass**  
+
+### Pipes  
+
+1) Use **DatePipe** || **{{ lastUpdate | date }}**
+2) Chaining pipes || **{{ lastUpdate | date | uppercase}}**  
+
