@@ -46,4 +46,8 @@ ou
 2) Property binding  
 3) Event binding  
 4) Two-way binding (FormsModule & ngModel)  
-5) Custom properties (@Input)
+5) Custom properties (@Input)  
+
+### Directives  
+
+1) Structural directives (*ngIf, *ngFor )
