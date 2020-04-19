@@ -1,5 +1,8 @@
 # Angular_Basics
-Angular bases
+
+This very simple repository will allow you to understand the basics of the Angular framework !  
+
+**Follow the progress of construction step by step via the progressive commits**
 
 ### init :  
 
@@ -21,7 +24,7 @@ Angular bases
 
 ` ng serve --open`  
 
-6) *optional* install Bootstrap :  
+6) *optional install Bootstrap* :  
 
 `npm i bootstrap`  
 
@@ -40,7 +43,7 @@ in the angular.json file, "architect / build / options", modify "styles" : `"sty
 ou  
 `ng g c componentName`  
 
-### Manage dynamic data  
+### Manage dynamic data    -> Observe on Github via the different commit
 
 1) String interpolation  
 2) Property binding  
@@ -50,4 +53,5 @@ ou
 
 ### Directives  
 
-1) Structural directives (*ngIf, *ngFor )
+1) Structural directives (*ngIf, *ngFor )  
+2) Directives by attribute (ngStyle, ngClass)

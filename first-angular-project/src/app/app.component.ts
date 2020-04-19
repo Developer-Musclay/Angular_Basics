@@ -11,7 +11,7 @@ export class AppComponent {
   devices = [
     {
       name: 'fridge',
-      status: 'on'
+      status: 'off'
     },
     {
       name: 'coffee maker',
