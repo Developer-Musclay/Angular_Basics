@@ -60,4 +60,6 @@ ou
 
 1) Use **DatePipe** || **{{ lastUpdate | date }}**
 2) Chaining pipes || **{{ lastUpdate | date | uppercase}}**  
+3) AsyncPipe || **{{... | async | ...}}**  
 
+### --> Enjoy !
