@@ -7,7 +7,9 @@
         <app-device></app-device>
         <app-device></app-device>
       </ul>
-      <button class="btn btn-success" [disabled]="!isAuth">Turn everything on</button>
+      <button class="btn btn-success" 
+      [disabled]="!isAuth"
+      (click)="onTurnOn()">Turn everything on</button>
     </div>
   </div>
 </div>
