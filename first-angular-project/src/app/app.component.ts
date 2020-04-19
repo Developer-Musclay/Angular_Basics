@@ -8,6 +8,10 @@ import { Component } from '@angular/core';
 export class AppComponent {
   isAuth = false;
 
+  deviceOne = 'fridge';
+  deviceTwo = 'coffee maker';
+  deviceThree = 'computer';
+
   constructor() {
     setTimeout(
       () => {
@@ -16,7 +20,7 @@ export class AppComponent {
     );
   }
 
-  onTurnOn(){
+  onTurnOn(){     
     console.log('We turn everything on!')
   }
 }

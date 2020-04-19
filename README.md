@@ -45,4 +45,5 @@ ou
 1) String interpolation  
 2) Property binding  
 3) Event binding  
-4) Two-way binding
+4) Two-way binding (FormsModule & ngModel)  
+5) Custom properties (@Input)
